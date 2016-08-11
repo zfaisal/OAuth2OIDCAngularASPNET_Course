@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripGallery.API", "TripGallery.API\TripGallery.API.csproj", "{9CED9E31-53ED-4F00-A135-D7C2972B57D2}"
 EndProject
@@ -42,6 +42,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TripGallery.AngularClient",
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripCompany.IdentityServer", "TripCompany.IdentityServer\TripCompany.IdentityServer.csproj", "{1533360C-96FB-44DF-8D9C-4B2D515F9A18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{428EB0F2-A452-48CF-B882-71E18997017F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{428EB0F2-A452-48CF-B882-71E18997017F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{428EB0F2-A452-48CF-B882-71E18997017F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1533360C-96FB-44DF-8D9C-4B2D515F9A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1533360C-96FB-44DF-8D9C-4B2D515F9A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1533360C-96FB-44DF-8D9C-4B2D515F9A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1533360C-96FB-44DF-8D9C-4B2D515F9A18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

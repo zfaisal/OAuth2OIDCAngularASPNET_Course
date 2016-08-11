@@ -1,0 +1,5 @@
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Constants\bin\Debug\TripGallery.Constants.dll
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Constants\bin\Debug\TripGallery.Constants.pdb
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Constants\obj\Debug\TripGallery.Constants.csprojResolveAssemblyReference.cache
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Constants\obj\Debug\TripGallery.Constants.dll
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Constants\obj\Debug\TripGallery.Constants.pdb

@@ -1,0 +1,1 @@
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripCompany.IdentityServer\obj\Debug\TripCompany.IdentityServer.csprojResolveAssemblyReference.cache
