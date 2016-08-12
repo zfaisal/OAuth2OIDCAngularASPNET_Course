@@ -10,8 +10,9 @@ using TripGallery.API.UnitOfWork.Picture;
 
 namespace TripGallery.API.Controllers
 {
-  
-    [EnableCors("https://localhost:44316", "*", "GET, POST, DELETE")]
+
+    //[EnableCors("https://localhost:44316", "*", "GET, POST, DELETE")]
+    [EnableCors("*", "*", "GET, POST, DELETE")]
     [Authorize]
     public class PicturesController : ApiController
     {

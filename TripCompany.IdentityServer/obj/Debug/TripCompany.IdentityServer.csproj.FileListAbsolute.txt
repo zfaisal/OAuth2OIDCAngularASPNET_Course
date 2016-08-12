@@ -82,3 +82,5 @@ C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripCompany.IdentityServer\bin\Microsoft
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripCompany.IdentityServer\obj\Debug\TripCompany.IdentityServer.csprojResolveAssemblyReference.cache
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripCompany.IdentityServer\obj\Debug\TripCompany.IdentityServer.dll
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripCompany.IdentityServer\obj\Debug\TripCompany.IdentityServer.pdb
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripCompany.IdentityServer\bin\TripGallery.Constants.dll
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripCompany.IdentityServer\bin\TripGallery.Constants.pdb

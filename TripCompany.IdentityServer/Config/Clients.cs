@@ -10,7 +10,45 @@ namespace TripCompany.IdentityServer.Config
     {
         public static IEnumerable<Client> Get()
         {
-            return new List<Client>(); 
+            Client c1 = new Client
+            {
+                ClientId = "tripgalleryclientcredentials"
+                 , ClientName = "Trip Gallery (Client Credientials)"
+                 , Flow = Flows.ClientCredentials
+                 , ClientSecrets = new List<Secret>()
+                 {
+                     new Secret(TripGallery.Constants.TripGalleryClientSecret.Sha256())
+                 }
+                 ,
+                AllowAccessToAllScopes = true
+            };
+
+
+            Client c2 = new Client
+            {
+                ClientId = "tripgalleryimplicit"
+                 ,
+                ClientName = "Trip Gallery (Implicit)"
+                 ,
+                Flow = Flows.Implicit
+                 ,
+                ClientSecrets = new List<Secret>()
+                 {
+                     new Secret(TripGallery.Constants.TripGalleryClientSecret.Sha256())
+                 }
+                 ,
+                AllowAccessToAllScopes = true
+                ,
+                RedirectUris = new List<string>
+                {
+                    TripGallery.Constants.TripGalleryAngular +"callback.html"
+                }
+            };
+
+            return new[]
+            {
+                c1, c2
+            };
         }
     }
 }

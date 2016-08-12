@@ -72,3 +72,5 @@ C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.MVCClient\bin\Antlr3.Runtime
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.MVCClient\obj\Debug\TripGallery.MVCClient.csprojResolveAssemblyReference.cache
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.MVCClient\obj\Debug\TripGallery.MVCClient.dll
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.MVCClient\obj\Debug\TripGallery.MVCClient.pdb
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.MVCClient\bin\IdentityModel.dll
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.MVCClient\bin\IdentityModel.pdb

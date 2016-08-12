@@ -1,6 +1,5 @@
 C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\bin\Debug\TripGallery.DTO.dll
 C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\bin\Debug\TripGallery.DTO.pdb
-C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\obj\Debug\TripGallery.DTO.csprojResolveAssemblyReference.cache
 C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\obj\Debug\TripGallery.DTO.dll
 C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\obj\Debug\TripGallery.DTO.pdb
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\bin\Debug\TripGallery.DTO.dll
@@ -8,3 +7,4 @@ C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\bin\Debug\TripGallery.DT
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\obj\Debug\TripGallery.DTO.csprojResolveAssemblyReference.cache
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\obj\Debug\TripGallery.DTO.dll
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\obj\Debug\TripGallery.DTO.pdb
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\obj\Debug\TripGallery.DTO.csprojResolveAssemblyReference.cache

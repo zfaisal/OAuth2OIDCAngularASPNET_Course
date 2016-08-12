@@ -11,7 +11,8 @@ using TripGallery.API.UnitOfWork.Trip;
 namespace TripGallery.API.Controllers
 {
 
-    [EnableCors("https://localhost:44316", "*", "GET, POST, PATCH")]
+    //[EnableCors("https://localhost:44316", "*", "GET, POST, PATCH")]
+    [EnableCors("*", "*", "GET, POST, PATCH")]
     [Authorize]
     public class TripsController : ApiController
     {
