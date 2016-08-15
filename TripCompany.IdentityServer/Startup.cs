@@ -16,12 +16,13 @@ namespace TripCompany.IdentityServer
     {
         public void Configuration(IAppBuilder app)
         {
+            BypassCertificateError();
             app.Map("/identity", idsrvApp =>
             {
                 var idServerServiceFactory = new IdentityServerServiceFactory()
                                                    .UseInMemoryClients(Clients.Get())
                                                    .UseInMemoryScopes(Scopes.Get())
-                                                   .UseInMemoryUsers(Users.Get());
+                                                 .UseInMemoryUsers(Users.Get());
                 var options = new IdentityServerOptions
                 {
                     Factory = idServerServiceFactory,
@@ -36,10 +37,25 @@ namespace TripCompany.IdentityServer
             });
         }
 
+        public void BypassCertificateError()
+        {
+            ServicePointManager.ServerCertificateValidationCallback +=
+
+                delegate (
+                    Object sender1,
+                    X509Certificate certificate,
+                    X509Chain chain,
+                    SslPolicyErrors sslPolicyErrors)
+                {
+                    return true;
+                };
+        }
+
         private X509Certificate2 LoadCertificate()
         {
-            //ServicePointManager.ServerCertificateValidationCallback = delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
-            return new X509Certificate2(string.Format(@"{0}\Certificate\zaki1.pfx", AppDomain.CurrentDomain.BaseDirectory), "password");
+            ServicePointManager.ServerCertificateValidationCallback = delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
+            BypassCertificateError(); 
+            return new X509Certificate2(string.Format(@"{0}\Certificate\server.pfx", AppDomain.CurrentDomain.BaseDirectory), "password");
         }
     }
 }

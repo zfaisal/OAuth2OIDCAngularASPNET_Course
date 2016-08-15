@@ -118,6 +118,7 @@
     <Content Include="Certificate\abc.pfx" />
     <Content Include="Certificate\zaki1.pfx" />
     <Content Include="Certificate\localhost.pfx" />
+    <Content Include="Certificate\server.pfx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

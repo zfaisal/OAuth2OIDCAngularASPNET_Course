@@ -97,28 +97,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2014 02:05:54</publishTime>
     </File>
     <File Include="bin/TripGallery.API.dll">
-      <publishTime>08/15/2016 14:23:17</publishTime>
+      <publishTime>08/15/2016 16:53:48</publishTime>
     </File>
     <File Include="bin/TripGallery.API.pdb">
-      <publishTime>08/15/2016 14:23:17</publishTime>
+      <publishTime>08/15/2016 16:53:48</publishTime>
     </File>
     <File Include="bin/TripGallery.Constants.dll">
-      <publishTime>08/15/2016 14:23:03</publishTime>
+      <publishTime>08/15/2016 16:53:37</publishTime>
     </File>
     <File Include="bin/TripGallery.Constants.pdb">
-      <publishTime>08/15/2016 14:23:03</publishTime>
+      <publishTime>08/15/2016 16:53:37</publishTime>
     </File>
     <File Include="bin/TripGallery.DTO.dll">
-      <publishTime>08/15/2016 14:23:03</publishTime>
+      <publishTime>08/15/2016 16:53:37</publishTime>
     </File>
     <File Include="bin/TripGallery.DTO.pdb">
-      <publishTime>08/15/2016 14:23:03</publishTime>
+      <publishTime>08/15/2016 16:53:37</publishTime>
     </File>
     <File Include="bin/TripGallery.Repository.dll">
-      <publishTime>08/15/2016 14:23:03</publishTime>
+      <publishTime>08/15/2016 16:53:37</publishTime>
     </File>
     <File Include="bin/TripGallery.Repository.pdb">
-      <publishTime>08/15/2016 14:23:03</publishTime>
+      <publishTime>08/15/2016 16:53:37</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>08/11/2016 15:27:37</publishTime>
@@ -178,7 +178,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/11/2016 16:04:10</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/15/2016 14:24:49</publishTime>
+      <publishTime>08/15/2016 16:54:06</publishTime>
     </File>
   </ItemGroup>
 </Project>

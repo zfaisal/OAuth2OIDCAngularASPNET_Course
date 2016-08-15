@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 using TripGallery.API.Helpers;
 using System.Web.Http.Cors;
 using IdentityServer3.AccessTokenValidation;
+using System.Net;
+using System.Security.Cryptography.X509Certificates;
+using System.Net.Security;
 
 namespace TripGallery.API
 {
@@ -16,7 +19,7 @@ namespace TripGallery.API
 
         public void Configuration(IAppBuilder app)
         {
-
+            BypassCertificateError(); 
             app.UseIdentityServerBearerTokenAuthentication(
                 new IdentityServerBearerTokenAuthenticationOptions
                 {
@@ -67,6 +70,20 @@ namespace TripGallery.API
 
 
             Mapper.AssertConfigurationIsValid();
+        }
+
+        public void BypassCertificateError()
+        {
+            ServicePointManager.ServerCertificateValidationCallback +=
+
+                delegate (
+                    Object sender1,
+                    X509Certificate certificate,
+                    X509Chain chain,
+                    SslPolicyErrors sslPolicyErrors)
+                {
+                    return true;
+                };
         }
     }
 }
