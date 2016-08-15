@@ -15,4 +15,3 @@ C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\bin\Debug\Newtons
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\obj\Debug\TripGallery.Repository.csprojResolveAssemblyReference.cache
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\obj\Debug\TripGallery.Repository.dll
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\obj\Debug\TripGallery.Repository.pdb
-C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\obj\Debug\TripGallery.Repository.csprojResolveAssemblyReference.cache

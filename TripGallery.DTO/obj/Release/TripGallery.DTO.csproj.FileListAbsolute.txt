@@ -1,0 +1,5 @@
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\bin\Release\TripGallery.DTO.dll
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\bin\Release\TripGallery.DTO.pdb
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\obj\Release\TripGallery.DTO.csprojResolveAssemblyReference.cache
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\obj\Release\TripGallery.DTO.dll
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.DTO\obj\Release\TripGallery.DTO.pdb

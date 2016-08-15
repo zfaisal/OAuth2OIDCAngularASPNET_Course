@@ -5,6 +5,8 @@ using Owin;
 using IdentityServer3.Core.Configuration;
 using TripCompany.IdentityServer.Config;
 using System.Security.Cryptography.X509Certificates;
+using System.Net;
+using System.Net.Security;
 
 [assembly: OwinStartup(typeof(TripCompany.IdentityServer.Startup))]
 
@@ -36,7 +38,8 @@ namespace TripCompany.IdentityServer
 
         private X509Certificate2 LoadCertificate()
         {
-            return new X509Certificate2(string.Format(@"{0}\Certificate\zaki.pfx", AppDomain.CurrentDomain.BaseDirectory), "password");
+            //ServicePointManager.ServerCertificateValidationCallback = delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
+            return new X509Certificate2(string.Format(@"{0}\Certificate\zaki1.pfx", AppDomain.CurrentDomain.BaseDirectory), "password");
         }
     }
 }

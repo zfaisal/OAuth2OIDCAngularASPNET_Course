@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\SecureAuth</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/tripstore.json">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>01/29/2015 09:57:28</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.Net4.dll">
+      <publishTime>01/29/2015 09:57:28</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.Net4.pdb">
+      <publishTime>01/29/2015 09:57:28</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.pdb">
+      <publishTime>01/29/2015 09:57:28</publishTime>
+    </File>
+    <File Include="bin/IdentityModel.dll">
+      <publishTime>03/15/2016 13:25:54</publishTime>
+    </File>
+    <File Include="bin/IdentityModel.pdb">
+      <publishTime>03/15/2016 13:25:54</publishTime>
+    </File>
+    <File Include="bin/IdentityServer3.AccessTokenValidation.dll">
+      <publishTime>07/01/2016 12:23:12</publishTime>
+    </File>
+    <File Include="bin/IdentityServer3.AccessTokenValidation.pdb">
+      <publishTime>07/01/2016 12:23:12</publishTime>
+    </File>
+    <File Include="bin/Marvin.JsonPatch.dll">
+      <publishTime>03/02/2015 17:12:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Protocol.Extensions.dll">
+      <publishTime>06/22/2015 13:56:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Protocol.Extensions.pdb">
+      <publishTime>06/22/2015 13:56:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2015 13:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.FileSystems.dll">
+      <publishTime>02/13/2015 13:16:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2015 13:16:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/13/2015 13:16:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Jwt.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/07/2016 14:26:43</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 12:19:34</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>06/22/2015 13:56:40</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.pdb">
+      <publishTime>06/22/2015 13:56:40</publishTime>
+    </File>
+    <File Include="bin/System.Linq.Dynamic.dll">
+      <publishTime>12/04/2014 12:35:00</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>01/28/2015 04:01:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>01/28/2015 04:03:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Owin.dll">
+      <publishTime>01/28/2015 04:03:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>06/27/2014 02:05:54</publishTime>
+    </File>
+    <File Include="bin/TripGallery.API.dll">
+      <publishTime>08/15/2016 14:23:17</publishTime>
+    </File>
+    <File Include="bin/TripGallery.API.pdb">
+      <publishTime>08/15/2016 14:23:17</publishTime>
+    </File>
+    <File Include="bin/TripGallery.Constants.dll">
+      <publishTime>08/15/2016 14:23:03</publishTime>
+    </File>
+    <File Include="bin/TripGallery.Constants.pdb">
+      <publishTime>08/15/2016 14:23:03</publishTime>
+    </File>
+    <File Include="bin/TripGallery.DTO.dll">
+      <publishTime>08/15/2016 14:23:03</publishTime>
+    </File>
+    <File Include="bin/TripGallery.DTO.pdb">
+      <publishTime>08/15/2016 14:23:03</publishTime>
+    </File>
+    <File Include="bin/TripGallery.Repository.dll">
+      <publishTime>08/15/2016 14:23:03</publishTime>
+    </File>
+    <File Include="bin/TripGallery.Repository.pdb">
+      <publishTime>08/15/2016 14:23:03</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/169501_4638522883979_2063126443_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/195040_4638510123660_980261724_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/259112_4638528844128_1518308143_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/414780_3615532069848_2102572639_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/456386_3615755555435_984578638_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/459797_3615642312604_1370618209_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/461023_3614625087174_2001310148_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/462233_4638521763951_969425614_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/465079_3614723209627_467364041_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/466664_3615515869443_317468512_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/466699_3615599471533_1196606751_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/467772_3614649447783_135439700_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/468412_3614694528910_1928514412_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/468942_3615644352655_1819977785_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/476865_3614613286879_254524626_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/477325_3615590111299_1614737679_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="Images/77719_4638524004007_595705513_o.jpg">
+      <publishTime>08/11/2016 15:27:37</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/11/2016 16:04:10</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/15/2016 14:24:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

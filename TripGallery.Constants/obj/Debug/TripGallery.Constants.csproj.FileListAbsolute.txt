@@ -6,4 +6,3 @@ C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.Constants\bin\Debug\TripGall
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.Constants\bin\Debug\TripGallery.Constants.pdb
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.Constants\obj\Debug\TripGallery.Constants.dll
 C:\VSDev\OAuth2OIDCAngularASPNET_Course\TripGallery.Constants\obj\Debug\TripGallery.Constants.pdb
-C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Constants\obj\Debug\TripGallery.Constants.csprojResolveAssemblyReference.cache

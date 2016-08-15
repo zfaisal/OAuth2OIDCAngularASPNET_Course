@@ -10,6 +10,7 @@
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort>44315</IISExpressSSLPort>
+    <NameOfLastUsedPublishProfile>TestSecureoauth</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

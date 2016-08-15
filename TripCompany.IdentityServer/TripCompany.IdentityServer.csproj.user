@@ -3,6 +3,7 @@
   <PropertyGroup>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort>44317</IISExpressSSLPort>
+    <NameOfLastUsedPublishProfile>test</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

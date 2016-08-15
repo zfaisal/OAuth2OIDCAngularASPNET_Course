@@ -1,0 +1,9 @@
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\bin\Release\TripGallery.Repository.dll
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\bin\Release\TripGallery.Repository.pdb
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\bin\Release\Microsoft.Owin.FileSystems.dll
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\bin\Release\Newtonsoft.Json.dll
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\bin\Release\Microsoft.Owin.FileSystems.xml
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\bin\Release\Newtonsoft.Json.xml
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\obj\Release\TripGallery.Repository.csprojResolveAssemblyReference.cache
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\obj\Release\TripGallery.Repository.dll
+C:\PCRDEV\OAuth2OIDCAngularASPNET_Course\TripGallery.Repository\obj\Release\TripGallery.Repository.pdb

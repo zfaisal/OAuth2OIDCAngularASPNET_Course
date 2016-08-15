@@ -17,7 +17,7 @@
     <AssemblyName>TripCompany.IdentityServer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressSSLPort>44317</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -115,6 +115,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Certificate\zaki.pfx" />
+    <Content Include="Certificate\abc.pfx" />
+    <Content Include="Certificate\zaki1.pfx" />
+    <Content Include="Certificate\localhost.pfx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
